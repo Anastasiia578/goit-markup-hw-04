@@ -403,9 +403,10 @@ padding-bottom: 32px;
 .foot-media:is(:hover,:focus){
     background-color:  #31D0AA;
 }
-.footer-media{
-    display: flex;
-}
 .footer-container{
     display: flex;
+}
+.footer-media{
+    display: block;
+    margin-right: 120px;
 }
