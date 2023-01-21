@@ -408,5 +408,7 @@ padding-bottom: 32px;
 }
 .footer-media{
     display: block;
-    margin-right: 120px;
+    width: 208px;
+    padding: 0;
+    margin-left: 120px;
 }
