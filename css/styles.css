@@ -338,7 +338,15 @@ padding-bottom: 32px;
     height: 100%;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cust-icon:is(:hover, :focus){
+    stroke:#404BBF;
+}
+.custom-link:is(:hover, :focus){
+    border-color: #404BBF;
 }
 /*footer*/
 .footer{
