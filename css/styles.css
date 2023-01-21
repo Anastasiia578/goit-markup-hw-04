@@ -123,7 +123,7 @@ p {
     color: #ffffff;
     padding-bottom: 48px;
     max-width: 496px;
-    margin-left: 330px;
+    margin: auto;
 }
 .btn {
     cursor: pointer;
