@@ -312,6 +312,18 @@ padding-bottom: 32px;
     font-size: 36px;
     line-height: 1.1;
 }
+
+.cust {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.custom {
+}
+.cust-name {
+}
+.custom-link {
+}
 /*footer*/
 .footer{
     background-color: #2e2f42;
