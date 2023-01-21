@@ -174,6 +174,7 @@ p {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
 /*portfolio*/
 .portfolio-top {
     padding-top: 96px;
@@ -211,7 +212,6 @@ p {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    
 }
 .exampl{ border: 1px solid #E7E9FC;
 border-top: none;
@@ -219,7 +219,13 @@ padding-left: 16px;
 padding-top: 16px;
 padding-bottom: 32px;
 }
+.exampl:hover, .exampl:focus {
+    box-shadow:
+    0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 
+}
 /*end portfolio*/
 
 /*main*/
