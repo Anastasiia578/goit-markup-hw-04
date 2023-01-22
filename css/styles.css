@@ -101,6 +101,7 @@ p {
 .header-nav:not(:last-child){
     margin-right: 40px;
 }
+.contact{ padding: 24px 0px;}
 
 .contact:hover,
 .contact:focus {
