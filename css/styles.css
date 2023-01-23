@@ -358,16 +358,16 @@ padding-bottom: 32px;
     height: 100%;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
 }
 .cust-icon{
-    fill:  #8E8F99;;
+    fill:  #8E8F99;
 }
-.cust-icon:is(:hover, :focus){
-    fill:#404BBF;
-}
+.custom-link:is(:hover, :focus) .cust-icon {
+    fill:#404BBF;}
+
 .custom-link:is(:hover, :focus){
     border-color: #404BBF;
 }
